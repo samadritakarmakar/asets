@@ -1,14 +1,13 @@
 {
-  "name": "asets",
+  "name": "sam",
   "version": "1.0.0",
   "description": "Downloads json file, saves it and makes it available on locahost port.",
   "main": "app.js",
+  "bin": "bin.js",
   "scripts": {
     "test": "node app"
   },
   "author": "Samadrita Karmakar",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "dependencies": {}
 }
