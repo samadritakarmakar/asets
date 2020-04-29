@@ -1,0 +1,73 @@
+{
+"nodes": {
+	"0": {
+		"nodeNumber": 1,
+		"x": 7.070501591499379e-13,
+		"y": 0,
+		"z": 5773.502691896258,
+		"memberNames": "C0"
+	},
+	"1": {
+		"nodeNumber": 2,
+		"x": -5000.000000000002,
+		"y": 0,
+		"z": -2886.751345948125,
+		"memberNames": "C1"
+	},
+	"2": {
+		"nodeNumber": 3,
+		"x": 4999.999999999998,
+		"y": 0,
+		"z": -2886.751345948132,
+		"memberNames": "C2"
+	}
+},
+"beamElements": {
+	"1": {
+		"label": 1,
+		"nodes": [
+			1,
+			4
+		],
+		"bodyLoads": ["DeadWeight"],
+		"boundaryLoads": [],
+		"section": 1,
+		"zAxis": [
+			2.4021827555249674e-18,
+			-0.019241446072101098,
+			-0.9998148662392727
+		],
+		"beamHinges": [
+			false,
+			false,
+			false,
+			false,
+			false,
+			false
+		]
+	},
+	"2": {
+		"label": 2,
+		"nodes": [
+			2,5],
+			"bodyLoads": [
+				"DeadWeight"
+			],
+			"boundaryLoads": [],
+			"section": 2,
+			"zAxis": [
+				-0.4855715616683065,
+				-0.00031910388282258006,
+				0.8741968637965445
+			],
+			"beamHinges": [
+					false,
+					false,
+					false,
+					false,
+					false,
+					false
+			]
+		}
+	}
+}
